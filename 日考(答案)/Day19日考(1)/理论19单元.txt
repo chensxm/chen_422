@@ -1,0 +1,370 @@
+(1) [ 单选 ] ID:16589
+连续词袋模型的英文缩写是 
+A) CBOW
+B) CBOM
+C) CCOW
+D) BBOW
+回答： 
+答案： A
+
+
+(2) [ 单选 ] ID:16491
+下面能够实现激活函数操作的语句是： 
+A) h_conv1 = tf.nn.relu( conv_ret1 )
+B) h_conv1 = tf.nn.dropout( conv_ret1 )
+C) h_conv1 = tf.nn.lrn( conv_ret1 )
+D) h_conv1 = tf.nn.l2_loss( conv_ret1 )
+回答： 
+答案： A
+
+
+(3) [ 单选 ] ID:16492
+在CNN图像处理过程中，尺寸为32X32的一幅图像，经过strides步长为1，填充padding为1，然后经3*3的卷积核filter卷积处理后，输出的图像尺寸大小为?（ ） 
+A) 28X28
+B) 14X14
+C) 30X30
+D) 32X32
+回答： 
+答案： D
+
+
+(4) [ 单选 ] ID:16486
+tensorflow.nn.conv2d(batch, in_height, in_width, in_channels)，其中参数in_channels表示的是 
+A) 卷积核
+B) 图像数
+C) 步长
+D) 通道数
+回答： 
+答案： D
+
+
+(5) [ 单选 ] ID:16541
+tf.nn.relu能 
+A) 被卷积数据
+B) 卷积核
+C) 步长
+D) 用到全连接层
+回答： 
+答案： D
+
+
+(6) [ 单选 ] ID:16488
+对于以下线性运算的结果向量，如果要映射成概率结果，需要函数： 
+A) tf.nn.softmax
+B) tf.nn.dropout
+C) tf.nn.maxpool
+D) tf.nn.cov2d
+回答： 
+答案： A
+
+
+(7) [ 单选 ] ID:16487
+在tf中，构建交叉熵损失函数的语句是： 
+A) cross_entropy = -tf.reduce_sum(y_actual*tf.log(y_predict))
+B) cross_entropy = -tf.reduce_all(y_actual*tf.log(y_predict))
+C) cross_entropy = -tf.reduce_max(y_actual*tf.log(y_predict))
+D) cross_entropy = -tf.reduce_s(y_actual*tf.log(y_predict))
+回答： 
+答案： A
+
+
+(8) [ 单选 ] ID:16484
+tf.nn.conv2d(a, b, c, d )，其中卷积核是 
+A) a
+B) b
+C) c
+D) d
+回答： 
+答案： B
+
+
+(9) [ 单选 ] ID:16489
+语句W_conv1 = weight_variable([5, 5, 8, 32]) b_conv1 = bias_variable([X])两句代码实现卷积核，其中对应偏置的数字X应该是： 
+A) 32
+B) 8
+C) 5
+D) 1
+回答： 
+答案： A
+
+
+(10) [ 单选 ] ID:16658
+词向量技术是将词转化成为稠密向量，并且对于相似的词，其对应的词向量也（） 
+A) 不同
+B) 相等
+C) 相同
+D) 相近
+回答： 
+答案： D
+
+
+(11) [ 单选 ] ID:16485
+一个32X32大小的图像，通过步长为4，尺寸为4X4的池化运算后，尺寸变为 
+A) 14X14
+B) 2X2
+C) 28X28
+D) 8X8
+回答： 
+答案： D
+
+
+(12) [ 单选 ] ID:16490
+实现带偏置的卷积操作的运算是： 
+A) conv_ret1 = conv2d(x_image, W_conv1) + b_conv1
+B) conv_ret1 = conv2d(x_image, W_conv1 + b_conv1)
+C) conv_ret1 = conv2d(x_image, W_conv1， b_conv1）
+D) conv_ret1 = conv2d(x_image, W_conv1)
+回答： 
+答案： A
+
+
+(13) [ 单选 ] ID:16483
+全连接神经网络，如果输入层为44X8矩阵，那么与它相连的第一级参数矩阵最有可能为： 
+A) 8X5矩阵
+B) 32X4矩阵
+C) 32X32矩阵
+D) 任意尺寸矩阵
+回答： 
+答案： A
+
+
+(14) [ 单选 ] ID:16657
+tensorflow中，哪个是与词向量有关的函数？ 
+A) tf.nn.softmax_cross_entropy_with_logits
+B) tf.nn.sigmoid_cross_entropy_with_logits
+C) tf.nn.embedding_lookup
+D) tf.nn.dropout
+回答： 
+答案： C
+
+
+(15) [ 单选 ] ID:16544
+训练时使用（  ）随机忽略一部分神经元，以避免模型过拟合。在AlexNet中主要是最后几个全连接层使用了这个环节。 
+A) Dropout
+B) Conv2d
+C) max-pool
+D) FC6-8
+回答： 
+答案： A
+
+
+(16) [ 单选 ] ID:16493
+图像卷积处理中，例如32X32，strides=1，padding="VALID"，FILTER卷积核3*3，则经过卷积处理之后图像尺寸变为? 
+A) 28X28
+B) 14X14
+C) 30X30
+D) 32X32
+回答： 
+答案： C
+
+
+(17) [ 单选 ] ID:16591
+word2vec主要包含两个模型Skip-gram和（）？ 
+A) GRU
+B) CCOW
+C) CBOW
+D) CBOM
+回答： 
+答案： C
+
+
+(18) [ 单选 ] ID:16443
+tf.nn.conv2d(batch,  in_height, in_width, in_channels)，其中batch是 
+A) 卷积核
+B) 图像数
+C) 步长
+D) 通道数
+回答： 
+答案： B
+
+
+(19) [ 单选 ] ID:16594
+自然语言处理领域中，判断两个单词是不是一对上下文词（context）与目标词（target），如果是一对，则是（）？ 
+A) 负样本
+B) 无效样本
+C) 学习样本
+D) 正样本
+回答： 
+答案： D
+
+
+(20) [ 单选 ] ID:16451
+在卷积神经网络中，函数tf.argmax()可以返回vector中的最大值的索引号或者是最大值的（） 
+A) 上标
+B) 下标
+C) 坐标
+D) 内积
+回答： 
+答案： B
+
+
+(21) [ 多选 ] ID:16495
+关于深度神经网络的构成，将卷积层放在前面，将全连接层放在后面，它们的作用是 
+A) 用卷积层提取特征
+B) pooling的下采样能够降低overfitting
+C) 激活函数relu可以用到卷积层
+D) 全连接层负责分类
+回答： 
+答案： ABCD
+
+
+(22) [ 多选 ] ID:16494
+定义卷积核W_conv1 = weight_variable([5, 5, 5, 10])后 
+A) 尺寸5X5
+B) 输入通道5
+C) 输出通道5
+D) 有10个卷积核
+回答： 
+答案： ABD
+
+
+(23) [ 多选 ] ID:16499
+在h_pool2_flat = tf.reshape( h_pool2, [-1, 7*7*64] )这条语句的意义有： 
+A) 卷积层的终极输出是64幅图
+B) 卷积层输出图片size是7X7
+C) 将64幅7X7张量改写成一个向量
+D) h_pool2_flat是全链接层的输入数据
+回答： 
+答案： ABCD
+
+
+(24) [ 多选 ] ID:16504
+借助池化，网络存储可以有效提升存储的利用率，池化操作通常有几种? 
+A) 平均池化
+B) 卷积
+C) 最大池化
+D) 全连接
+回答： 
+答案： AC
+
+
+(25) [ 多选 ] ID:16497
+语句train_acc = accuracy.eval(feed_dict={x:batch[0], y_actual: batch[1], keep_prob: 1.0}) 
+A) 是训练过程
+B) 是测试过程
+C) 输入训练集合
+D) 输入dropout比例
+回答： 
+答案： ACD
+
+
+(26) [ 多选 ] ID:16496
+在程序中y_predict和y_actual的意义 
+A) y_predict来自神经网络输出
+B) y_predict必从softmax函数出来。
+C) y_actual从标签集合来的。
+D) 两者的维度属性一致。
+回答： 
+答案： ABCD
+
+
+(27) [ 多选 ] ID:16500
+语句tf.nn.dropout( h_fc1, keep_prob )的意义是 
+A) 停止某些节点更新
+B) 保留百分率为keep_prob的节点更新
+C) 在全链接层有效
+D) 可以停止任意层节点更新
+回答： 
+答案： ABCD
+
+
+(28) [ 多选 ] ID:16498
+tf.nn.conv2d(x, W, name1=[1, 1, 1, 1], name2='SAME')其中name1和name2对应单词是： 
+A) name1是stride
+B) name2是padding
+C) name1是padding
+D) name2是stride
+回答： 
+答案： AB
+
+
+(29) [ 多选 ] ID:16502
+语句train_step.run(feed_dict={x: batch[0], y_actual: batch[1], keep_prob: 0.5})这条语句的意义： 
+A) train_step必须是优化器
+B) feed_dict接收训练集和标签集。
+C) 要求百分之五十的神经元参与训练。
+D) 这是训练过程的入口。
+回答： 
+答案： ABCD
+
+
+(30) [ 多选 ] ID:16503
+下面哪些语句哪些函数是优化器？ 
+A) tf.train.GradientDescentOptimizer()
+B) tf.train.AdamOptimizer()
+C) tf.train.Optimizer()基本的优化类
+D) tf.train.AdadeltaOptimizer()
+回答： 
+答案： ABCD
+
+
+(31) [ 判断 ] ID:16590
+CBOW（连续词袋）模型的特点是输入已知上下文，输出对当前单词的预测 
+回答： 
+答案： 是
+
+
+(32) [ 判断 ] ID:16507
+对交叉熵的损失函数求偏导数的结果，得到一个梯度向量。 
+回答： 
+答案： 是
+
+
+(33) [ 判断 ] ID:16514
+通常说的信息熵总是在一个概率系统下才有意义。 
+回答： 
+答案： 是
+
+
+(34) [ 判断 ] ID:16513
+评判一句话的信息量，当它越大，该句话发生的概率越大。 
+回答： 
+答案： 否
+
+
+(35) [ 判断 ] ID:16508
+梯度和损失函数不一样，是个向量 
+回答： 
+答案： 是
+
+
+(36) [ 判断 ] ID:16509
+全连接层能够实现卷积运算。 
+回答： 
+答案： 否
+
+
+(37) [ 判断 ] ID:16506
+损失函数，输出是个向量。 
+回答： 
+答案： 否
+
+
+(38) [ 判断 ] ID:16515
+Non-Maximum Suppression，简称NMS，理解为抑制不是极大值的元素，可以理解为局部最大搜索 
+回答： 
+答案： 是
+
+
+(39) [ 判断 ] ID:16510
+对于损失函数，有多种函数形式可以表达。 
+回答： 
+答案： 是
+
+
+(40) [ 判断 ] ID:16512
+如果对多元数量函数求梯度，结果是个向量。 
+回答： 
+答案： 是
+
+
+(41) [ 判断 ] ID:16505
+损失函数，可以由交叉熵定义 
+回答： 
+答案： 是
+
+
+(42) [ 判断 ] ID:16511
+在自然界信息传播速度，是以指数函数的速度进行的。 
+回答： 
+答案： 是

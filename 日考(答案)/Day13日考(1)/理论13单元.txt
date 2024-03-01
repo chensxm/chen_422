@@ -1,0 +1,359 @@
+(1) [ 单选 ] ID:16293
+YOLO是Joseph Redmon和Ali Farhadi等人于2015年提出的第一个基于单个神经网络的目标检测系统。在今年CVPR上，Joseph Redmon和Ali Farhadi发表的YOLO 2进一步提高了检测的（ ）和速度 
+A) 精度
+B) 细度
+C) 难度
+D) 力度
+回答： 
+答案： A
+
+
+(2) [ 单选 ] ID:16290
+在BP算法的过程中，error项逐渐变小，使得越靠前的网络层的学习速率越来越低，这种现象被称为vanishing gradient problem 即 
+A) 梯度上升问题
+B) 梯度优化
+C) 梯度消失问题
+D) 梯度下降法
+回答： 
+答案： C
+
+
+(3) [ 单选 ] ID:16588
+YOLO的英文全称是什么？ 
+A) You Only Look Only
+B) You Only Like Once
+C) You Only Look One
+D) You Only Look Once
+回答： 
+答案： D
+
+
+(4) [ 单选 ] ID:16050
+tf.nn.conv2d是TensorFlow里面实现卷积的函数，使用这样函数的网络层的作用是（） 
+A) 增强图像
+B) 简化图像
+C) 特征提取
+D) 图像处理
+回答： 
+答案： C
+
+
+(5) [ 单选 ] ID:16285
+下列随机序列中[1,3, 1.1,2, 3.1, 1.9]中,可能是 
+A) 均匀分布
+B) 正态分布
+C) 不能确定
+D) 非随机
+回答： 
+答案： A
+
+
+(6) [ 单选 ] ID:16037
+语句b = tf.ones_like(a)是 
+A) 将b节点内容用a替换
+B) b对应张量维度和A相同，值为1
+C) b对应张量维度和A相同，值为2
+D) b对应张量维度和不同
+回答： 
+答案： B
+
+
+(7) [ 单选 ] ID:16054
+tf.add(a,b)函数的作用是? 
+A) 除法
+B) 加法操作
+C) 减法操作
+D) 乘法操作
+回答： 
+答案： B
+
+
+(8) [ 单选 ] ID:16282
+tf的文件读入前，需要定义reader = tf.WholeFileReader()，该语句是 
+A) 读入文件
+B) 定义文件操作对象
+C) 定义读入模式
+D) 定义数据对象
+回答： 
+答案： B
+
+
+(9) [ 单选 ] ID:16055
+tf.div(a,b)函数的作用是? 
+A) 除法
+B) 加法操作
+C) 减法操作
+D) 乘法操作
+回答： 
+答案： A
+
+
+(10) [ 单选 ] ID:16291
+在深度学习中的目标检测中会检测出多个目标框，后期需要通过非极大值抑制去除得分低并且iou（  ）阈值的目标框 
+A) 小于
+B) 大于
+C) 等于
+D) 大于或小于
+回答： 
+答案： B
+
+
+(11) [ 单选 ] ID:16284
+X的定义是Variable或constant则 print（X.get_shape()）输出： 
+A) X张量描述
+B) X的数据值
+C) X的数轴数
+D) X的数据长度
+回答： 
+答案： A
+
+
+(12) [ 单选 ] ID:16047
+使用函数tf.nn.conv2d()主要的目的是（） 
+A) 增强图像
+B) 简化图像
+C) 特征提取
+D) 图像处理
+回答： 
+答案： C
+
+
+(13) [ 单选 ] ID:16029
+全连接层的作用是 
+A) 滤波
+B) One-hot处理
+C) 用于特征提取
+D) 用于分类
+回答： 
+答案： D
+
+
+(14) [ 单选 ] ID:16255
+在TF框架中，激活函数tf.nn.relu的作用是? 
+A) 用于卷积后数据
+B) 用于卷积核
+C) 用于步长
+D) 不能用到全连接层
+回答： 
+答案： A
+
+
+(15) [ 单选 ] ID:16288
+对于tf函数tf.all_variables()。 
+A) 能够打印所有变量
+B) 能够打印部分变量
+C) 能定义所有变量
+D) 能够定义任意变量
+回答： 
+答案： A
+
+
+(16) [ 单选 ] ID:16289
+在信息论中，熵是接收的每条消息中包含的信息的平均量，又被称为( )、信源熵、平均自信息量。 
+A) 离散随机事件
+B) 信息熵
+C) 范数
+D) 信息论
+回答： 
+答案： B
+
+
+(17) [ 单选 ] ID:16286
+tf在图像处理的4维度张量，按照次序，它的意义是： 
+A) batch、height、weight、channel
+B) height、weight、channel，batch
+C) batch、height、width、channel
+D) channel、height、weight、batch
+回答： 
+答案： C
+
+
+(18) [ 单选 ] ID:16287
+在Mnist库的四个文件意义是： 
+A) 图像集、训练标签集、测试集、测试标签集
+B) 原始集、训练集、标签集、测试集
+C) 训练集、训练标签集、测试集、测试标签集
+D) 图像集、附加图像集、测试图像集、测试附加集
+回答： 
+答案： C
+
+
+(19) [ 单选 ] ID:16283
+tf读文件语句：key, value = reader.read(tf.train.string_input_producer(['cat.jpg']))语句中，key是 
+A) key是关键词，value是Key的值
+B) key是文件打开符，value是整个文件数据读入。
+C) key是文件内部索引，value是key索引对应数据；
+D) key是文件打开符，value是Key的值
+回答： 
+答案： B
+
+
+(20) [ 单选 ] ID:16046
+tf.convert_to_tensor用于将不同（ ）变成张量：比如可以让数组变成张量、也可以让列表变成张量。 
+A) 数据
+B) 变量
+C) 高度
+D) 范数
+回答： 
+答案： A
+
+
+(21) [ 多选 ] ID:16302
+（Non-maximum suppression, NMS）的本质是? 
+A) 搜索局部极大值
+B) 抑制非极大值元素
+C) 寻找出最小值
+D) 寻找出阈值
+回答： 
+答案： AB
+
+
+(22) [ 多选 ] ID:16296
+训练语句mnist = input_data.read_data_sets("MNIST_data/", one_hot=True) 是指: 
+A) 如果本地有mnist就从本地读入
+B) 如果本地没有mnist就从网上读入
+C) 将训练数据转换成one_hot表
+D) 将标签数据转换成one_hot表
+回答： 
+答案： ABD
+
+
+(23) [ 多选 ] ID:16294
+离散有限个事件的信息熵是（） 
+A) 有限的
+B) 无限的
+C) 可能为负
+D) 可能大于1
+回答： 
+答案： AD
+
+
+(24) [ 多选 ] ID:16301
+计算机视觉特征检测点检测中，点特征的优势是? 
+A) 点特征属于局部特征，对遮挡有一定鲁棒性
+B) 通常图像中可以检测到成百上千的点特征，以量取胜
+C) 点特征有较好的辨识性，不同物体上的点容易区分
+D) 点特征提取通常速度很快
+回答： 
+答案： ABCD
+
+
+(25) [ 多选 ] ID:16299
+tf中与梯度相关的函数是： 
+A) tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
+B) [db, dW, dx] = tf.gradient(C, [b, w, x])
+C) gradient = Optimizer.compute_gradients(loss)
+D) optm = Optimizer.apply_gradients(grads_holder)
+回答： 
+答案： ABCD
+
+
+(26) [ 多选 ] ID:16270
+函数conv2d()有好几个参数…....,对其参数描述正确的下面选项有那些? 
+A) 步长在高度方向和宽度方向均为strides
+B) 填充图像边缘，使图像尺寸不变
+C) input是待卷积的数据
+D) filter是卷积核
+回答： 
+答案： ABCD
+
+
+(27) [ 多选 ] ID:16295
+语句中：tensorflow.truncated_normal(shape, mean, stddev)以下说法正确的是 
+A) shape是张量形状
+B) 正态随机数填充
+C) 随机数需截断
+D) 方差是stddev
+回答： 
+答案： ABC
+
+
+(28) [ 多选 ] ID:16298
+在语句tf.truncated_normal(U, stddev=0.1)和tf.constant(V )中，正确说法是： 
+A) U是shape向量
+B) V是数值或列表
+C) U和V意义相同
+D) U和V意义不相同
+回答： 
+答案： ABD
+
+
+(29) [ 多选 ] ID:16300
+张量语句tf.concat()是： 
+A) 合并张量
+B) 与张量维度有关
+C) 实现代数运算
+D) 输入数据是一个张量
+回答： 
+答案： AB
+
+
+(30) [ 多选 ] ID:16297
+图像读写语句：image0 = tf.image.decode_jpeg( value ) 
+A) 对Value进行解码
+B) Value是jpeg格式数据
+C) value是压缩数据
+D) tf.image是图像处理类
+回答： 
+答案： ABCD
+
+
+(31) [ 判断 ] ID:16311
+Yolo的泛化能力强，在做迁移时，模型鲁棒性高 
+回答： 
+答案： 是
+
+
+(32) [ 判断 ] ID:16310
+物体检测中应用NMS算法的主要目的是消除多余（交叉重复）的窗口，找到最佳物体检测位置。 
+回答： 
+答案： 是
+
+
+(33) [ 判断 ] ID:16307
+对于函数tf.reshape函数用于对张量变形。 
+回答： 
+答案： 是
+
+
+(34) [ 判断 ] ID:16309
+tf.summary.histogram()函数功能是
+输出一个直方图的Summary protocol buffer 
+回答： 
+答案： 是
+
+
+(35) [ 判断 ] ID:16303
+判断：除了冲激函数，高斯函数的衰减速度最快。 
+回答： 
+答案： 是
+
+
+(36) [ 判断 ] ID:16305
+熵这个概念来自热力学，信息熵是借用。 
+回答： 
+答案： 是
+
+
+(37) [ 判断 ] ID:16304
+一句话所言事物的实现概率大，信息熵越大。 
+回答： 
+答案： 否
+
+
+(38) [ 判断 ] ID:16308
+对一个概率空间的样本事件进行划分，划分后依然是概率空间。 
+回答： 
+答案： 是
+
+
+(39) [ 判断 ] ID:16312
+由于Yolo是对整张图片做卷积，所以其在检测目标有更大的视野，它不容易对背景误判 
+回答： 
+答案： 是
+
+
+(40) [ 判断 ] ID:16306
+对于函数tf.expand_dims函数用于对张量维度扩充。 
+回答： 
+答案： 是

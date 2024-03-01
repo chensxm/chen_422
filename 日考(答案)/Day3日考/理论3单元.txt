@@ -1,0 +1,371 @@
+(1) [ 单选 ] ID:15919
+语句Y=eye([m,n])或Y=eye(m,n)的作用是? 
+A) 生成m×n的单位矩阵
+B) 生成m维的1矩阵
+C) 信息的增量刻度总是以线性函数的规模进行的
+D) 信息的增量刻度总是无法判定的
+回答： 
+答案： A
+
+
+(2) [ 单选 ] ID:15912
+程序设计中，tf.argmax返回了最大的那个数值的（ ）或下标后，接下来通常使用tf.equal()进行逻辑判断 
+A) 上标
+B) 索引号
+C) 坐标
+D) 内积
+回答： 
+答案： B
+
+
+(3) [ 单选 ] ID:15918
+在tensorflow框架编程中，全局变量初始化函数执行后是完成了( )变量的初始化操作 
+A) 局部
+B) 最小
+C) 全局
+D) 最大
+回答： 
+答案： C
+
+
+(4) [ 单选 ] ID:15908
+程序语句print(tf.__version__)，有什么作用？ 
+A) 显示安装的tensorflow的版本号
+B) 保存安装的tensorflow的版本号
+C) 下载安装的tensorflow
+D) 下载上一个版本 的tensorflow
+回答： 
+答案： A
+
+
+(5) [ 单选 ] ID:15946
+tensorflow中，tf.argmax()返回最大数值的（）,通常和tf.equal()一起使用，计算模型准确度 
+A) 上标
+B) 下标
+C) 坐标
+D) 内积
+回答： 
+答案： B
+
+
+(6) [ 单选 ] ID:15901
+可以直观地看到各层网络结构和参数的工具的是？ 
+A) tf
+B) tf.nn
+C) TF
+D) TensorBoard
+回答： 
+答案： D
+
+
+(7) [ 单选 ] ID:15909
+tensorflow中，tf.equal(tf.argmax(y_conv, axis=1),tf.argmax(y_, 1)) 
+A) 返回整数值
+B) 返回布尔值
+C) 返回浮点值
+D) 返回字符
+回答： 
+答案： B
+
+
+(8) [ 单选 ] ID:15916
+在TensorFlow中使用tf.log函数可以计算元素的自然对数,自然对数以常数( )为底数的对数, 
+A) e
+B) 10
+C) 2
+D) 10^^
+回答： 
+答案： A
+
+
+(9) [ 单选 ] ID:15913
+函数tf.log( )，该函数返回的是一个（ ） 
+A) 向量
+B) 张量
+C) 矢量
+D) 范数
+回答： 
+答案： B
+
+
+(10) [ 单选 ] ID:15920
+张量Tensor通常是操作（ ）维数组进行传送，形象地描述为从流图的一端流动到另一端，即TensorFlow的组成 
+A) N
+B) 1
+C) 0
+D) 3
+回答： 
+答案： A
+
+
+(11) [ 单选 ] ID:15905
+通常数据库可以理解为是（ ）的一种集合体现 
+A) 结构化数据
+B) 非结构化数据
+C) 离散数据
+D) 无序数据
+回答： 
+答案： A
+
+
+(12) [ 单选 ] ID:15910
+以下选项，请选出可以实现tf帮助查询的编程语句? 
+A) import tensorflow as tf
+print(help(tf))
+B) import tensorflow as tf
+print( tf.help(tf))
+C) import tensorflow as tf
+print(tf)
+D) import tensorflow as tf
+print( tf.help( ))
+回答： 
+答案： A
+
+
+(13) [ 单选 ] ID:15911
+复合函数h(f(g(x)))对x的导数是： 
+A) （h对f的导数）乘（f对g的导数）乘（g对x的导数）
+B) h对x的导数
+C) h对f的导数
+D) h对g的导数
+回答： 
+答案： A
+
+
+(14) [ 单选 ] ID:15904
+执行语句print(tf.__path__)后，结果是['C:\\Program Files\\Anaconda3\\lib\\site-packages\\tensorflow'],则该语句实现的功能是? 
+A) 查询tensorflow位置
+B) 查看tensorflow安装路径
+C) 查询tensorflow版本
+D) 测试tf模块安装是否正常
+回答： 
+答案： B
+
+
+(15) [ 单选 ] ID:15915
+（ ）和tf.multiply用法一致,功能是实现x和y的element-wise方式的相乘，也就是所有点对应相乘。 
+A) np.multiply
+B) tf.Session()
+C) tf.mul()
+D) tf.Graph()
+回答： 
+答案： A
+
+
+(16) [ 单选 ] ID:15903
+print(tf.__version__)是可能正确被的语句，则这条程序语句实现的作用是? 
+A) 查询tensorflow版本
+B) 查询tensorflow年代
+C) 查询tensorflow位置
+D) 测试tf模块安装是否正常
+回答： 
+答案： A
+
+
+(17) [ 单选 ] ID:15917
+tensorflow.global_variables_initializer()的作用是什么？ 
+A) 始化列表中的变量
+B) 局部变量初始化
+C) 初始化所有的变量(GraphKeys.VARIABLES)
+D) 不清楚
+回答： 
+答案： C
+
+
+(18) [ 单选 ] ID:15907
+(e^x)*x^2的导数是 
+A) (e^x)(x^2+2x）
+B) (e^x)
+C) (e^x)*cos(x)
+D) cosx
+回答： 
+答案： A
+
+
+(19) [ 单选 ] ID:15914
+Session 是 Tensorflow 为了控制,和输出文件的执行的语句. 运行 session.run() 可以获得你要得知的运算结果,或者是你所要运算的部分通常要创建Session对象，对应的编程语句为： 
+A) sess = tf.Session()
+B) sess.close()
+C) tf.add()
+D) tf.equal()
+回答： 
+答案： A
+
+
+(20) [ 单选 ] ID:15902
+程序语句cost = tf.reduce_mean(tf.square(hypothesis - Y))通常是什么算法使用? 
+A) 线性回归
+B) 逻辑回归
+C) SVM
+D) CNN
+回答： 
+答案： A
+
+
+(21) [ 多选 ] ID:15921
+不能实现总体求和、总体平均的函数是： 
+A) tf.reduce_sum
+B) tf.multiply
+C) tf.reduce_mean
+D) tf.norm
+回答： 
+答案： BD
+
+
+(22) [ 多选 ] ID:15925
+在tensorflow平台中，可以实现两个向量内积运算的语句包括： 
+A) tf.reduce_sum
+B) tf.multiply
+C) tf.reduce_mean
+D) tf.norm
+回答： 
+答案： AB
+
+
+(23) [ 多选 ] ID:15922
+在tensorflow中，x = tf.cast(u,tf.float32)的意义，说法正确的是 
+A) 将随机数赋值给u
+B) 将u内数据转换成float32
+C) 将u内的数据进行洗牌处理
+D) 实现类型转化的功能
+回答： 
+答案： BD
+
+
+(24) [ 多选 ] ID:15927
+要抽象和展示Mathematical Model通常会使用（ ）等方式 
+A) 数学符号
+B) 数学式子
+C) 程序
+D) 图形
+回答： 
+答案： ABCD
+
+
+(25) [ 多选 ] ID:15930
+TensorFlow 软件库 可以轻松地将计算工作部署到多种平台( ) 
+A) CPU
+B) GPU
+C) TPU
+D) SDK
+回答： 
+答案： ABC
+
+
+(26) [ 多选 ] ID:15924
+TensorFlow框架可用于多个领域，例如： 
+A) 语音识别
+B) NLP
+C) 计算机视觉
+D) 自动驾驶
+回答： 
+答案： ABCD
+
+
+(27) [ 多选 ] ID:15928
+可以理解为压缩求和，常用于降维的函数和计算张量的各个维度上的元素的平均值的函数分别是? 
+A) tf.reduce_sum
+B) tf.multiply
+C) tf.reduce_mean
+D) tf.norm
+回答： 
+答案： AC
+
+
+(28) [ 多选 ] ID:15923
+对于w_data = np.mat([[1.0, 3.0]]).T生成的张量维度是 
+A) 维度是(2,1)的张量
+B) 是向量，值为[1,3]
+C) 是矩阵[[1],[3]]
+D) 是向量[[1，3]]的转置
+回答： 
+答案： ACD
+
+
+(29) [ 多选 ] ID:15926
+数和矩阵相乘在函数和矩阵与矩阵相乘的函数分别是? 
+A) tf.multiply(x2,y2)
+B) tf.matmul(x,y)
+C) tf.equal
+D) tf.cast
+回答： 
+答案： AB
+
+
+(30) [ 多选 ] ID:15929
+Anaconda包含了() 约180多个科学包及其依赖项。 
+A) conda
+B) matlab
+C) Python
+D) cad
+回答： 
+答案： AC
+
+
+(31) [ 判断 ] ID:15931
+框架TensorFlow？最初是由Google Brain团队（隶属于 Google 的 AI 部门）中的研究人员和工程师联合开发的 
+回答： 
+答案： 是
+
+
+(32) [ 判断 ] ID:15932
+开发软件Anaconda不可以在Win10平台安装 
+回答： 
+答案： 否
+
+
+(33) [ 判断 ] ID:15936
+编程语句os.environ['TF_CPP_MIN_LOG_LEVEL']为'2'的含意是编程程序时默认的显示等级只显示Fatal和Error 
+回答： 
+答案： 是
+
+
+(34) [ 判断 ] ID:15938
+TensorFlow能够直接解决各种机器学习任务。目标就是在一般情况下，无论遇到什么问题，TensorFlow都可以在一定程度上提供API的支持 
+回答： 
+答案： 是
+
+
+(35) [ 判断 ] ID:15941
+tf.argmax(vector, 1)：返回的是vector中的最大值的索引号，如果vector是一个向量，那就返回一个值，如果是一个矩阵，那就返回一个向量，这个向量的每一个维度都是相对应矩阵行的最大值元素的索引号 
+回答： 
+答案： 是
+
+
+(36) [ 判断 ] ID:15933
+Tensorboard中，可以使用tf.summary.scalar记录标量 
+回答： 
+答案： 是
+
+
+(37) [ 判断 ] ID:15940
+tf.reduce_mean函数的作用是求平均值。第一个参数是一个集合，可以是列表、二维数组和多维数组。第二个参数指定在哪个维度上面求平均值。默认对所有的元素求平均 
+回答： 
+答案： 是
+
+
+(38) [ 判断 ] ID:15934
+tf.name_scope()的含义是在另外一个命名空间来定义变量 
+回答： 
+答案： 是
+
+
+(39) [ 判断 ] ID:15935
+sess = tf.Session()
+writer = tf.summary.FileWriter(TB_SUMMARY_DIR)
+writer.add_graph(sess.graph)
+以上语句为实现可视化界面展示tensorboard移植语句 
+回答： 
+答案： 是
+
+
+(40) [ 判断 ] ID:15937
+tf.argmax可以认为就是np.argmax。tensorflow使用numpy实现的这个API 
+回答： 
+答案： 是
+
+
+(41) [ 判断 ] ID:15939
+张量维度或形状，是用一个向量描述。 
+回答： 
+答案： 是
